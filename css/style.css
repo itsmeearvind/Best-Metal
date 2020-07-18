@@ -112,6 +112,8 @@ nav ul li a:hover {
     color: #fe5000;
 }
 .menu-icon {
+    font-size: 35px;
+    padding-top: 40px;
     width: 100%;
     text-align: right;
     box-sizing: border-box;
@@ -739,7 +741,7 @@ li.icons a:hover {
     .showing {
         max-height: 30em;
     }
-    ul.social-items.showing li.icons {
+    ul.social-items li.icons {
         display: inline;
         margin: 20px;
         line-height: 3;
@@ -751,20 +753,14 @@ li.icons a:hover {
     }
     .menu-icon {
         display: block;
-        font-size: 35px;
-        padding-top: 40px;
     }
     header {
-        width: 100%;
         padding-bottom: 40px;
     }
     .banner-text {
         margin: auto;
         display: table;
         width: 100%;
-        padding-top: 35vh;
-        z-index: 1;
-        color: #fff;
     }
     /* Header Responsive End */
     
