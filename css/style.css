@@ -804,15 +804,7 @@ li.icons a:hover {
         width: 100%;
     }
     .card {
-        width: 43%;
-        float: left;
-        height: 250px;
-        padding: 1rem 1rem;
-        background: #fff;
-        margin: 1px;
-        position: relative;
-        transition: 0.5s ease-in-out;
-        display: table;
+        width: 100%;
     }
     .bg-img {
         padding: 10px;
@@ -838,24 +830,32 @@ li.icons a:hover {
         margin: auto;
         display: table;
     }
+    .Name {
+        margin: auto;
+        display: table;
+    }
     input[type="text"] {
         padding: 5px;
-        width: 46%;
+        width: 45%;
         margin-bottom: 8px;
         margin-top: 8px;
     }
+    .Email {
+        margin: auto;
+        display: table;
+    }
     input[type="email"] {
         padding: 5px;
-        width: 46%;
+        width: 45%;
         margin-bottom: 8px;
     }
     input[type="tel"] {
         padding: 5px;
-        width: 46%;
+        width: 45%;
     }
     textarea {
         padding: 15px;
-        width: 92%;
+        width: 89%;
         height: 80px;
     }
     .footer-logo {
@@ -865,6 +865,13 @@ li.icons a:hover {
     }
     .left-footer {
         border: 0;
+        margin: auto;
+        display: table;
+        width: 100%;
+    }
+    .left-footer p {
+        margin: auto;
+        display: table;
         width: 100%;
     }
     .center-footer {
@@ -872,6 +879,15 @@ li.icons a:hover {
         margin: auto;
         display: table;
         width: 100%;
+    }
+    .loc {
+        margin: auto;
+        display: table;
+        text-align: center;
+    }
+    .map {
+        margin: auto;
+        display: table;
     }
     .right-footer {
         float: left;
