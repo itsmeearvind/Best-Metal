@@ -1,0 +1,47 @@
+/* -----font-family: Roboto Bold ------*/
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+/* -----font-family: Roboto Black------*/
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url("../fonts/Roboto-Black.ttf");
+}
+
+/* -----font-family: Roboto Regular------*/
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+/* -----font-family: PassionOne Regular------*/
+@font-face {
+    font-family: 'Passion One', cursive;
+    src: url("../fonts/PassionOne-Regular.ttf") format("truetype");
+}
+
+/* -----font-family: PassionOne Bold------*/
+@font-face {
+    font-family: 'Passion One', cursive;
+    src: url("../fonts/PassionOne-Bold.ttf") format("truetype");
+}
+
+/* -----font-family: PassionOne Black------*/
+@font-face {
+    font-family: 'Passion One', cursive;
+    src: url("../fonts/PassionOne-Black.ttf") format("truetype");
+}
+
+/* -----font-family: Anton ------*/
+@font-face {
+    font-family: 'Anton', sans-serif;
+    src: url("../fonts/Anton-Regular.ttf") format("truetype");
+}
+
+/* -----font-family: ArchivoBlack ------*/
+@font-face {
+    font-family: 'Archivo Black', sans-serif;
+    src: url("../fonts/ArchivoBlack-Regular.ttf") format("truetype");
+}
