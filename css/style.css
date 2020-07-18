@@ -722,7 +722,7 @@ li.icons a:hover {
 
 
 
-@media only screen and (max-width:750px) {
+@media only screen and (min-width and max-width:750px) {
   
     /* Header Responsive Start */
     .logo {
@@ -739,6 +739,11 @@ li.icons a:hover {
     .showing {
         max-height: 30em;
     }
+    ul.social-items.showing li.icons {
+        display: inline;
+        margin: 20px;
+        line-height: 3;
+    }
     nav ul li {
         box-sizing: border-box;
         width: 100%;
@@ -746,6 +751,20 @@ li.icons a:hover {
     }
     .menu-icon {
         display: block;
+        font-size: 35px;
+        padding-top: 40px;
+    }
+    header {
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    .banner-text {
+        margin: auto;
+        display: table;
+        width: 100%;
+        padding-top: 35vh;
+        z-index: 1;
+        color: #fff;
     }
     /* Header Responsive End */
     
@@ -769,7 +788,9 @@ li.icons a:hover {
         width: 100%;
     }
     /*Best Metal Site Section 1 Responsive End*/
-    
+    .bg-color {
+        width: 100%;
+    }
     .crc {
         display: block;
     }
@@ -797,6 +818,9 @@ li.icons a:hover {
         transition: 0.5s ease-in-out;
         display: table;
     }
+    .bg-img {
+        padding: 10px;
+    }
     .bg-img h2 {
         margin: auto;
         display: block;
@@ -818,31 +842,46 @@ li.icons a:hover {
         margin: auto;
         display: table;
     }
+    input[type="text"] {
+        padding: 5px;
+        width: 46%;
+        margin-bottom: 8px;
+        margin-top: 8px;
+    }
+    input[type="email"] {
+        padding: 5px;
+        width: 46%;
+        margin-bottom: 8px;
+    }
+    input[type="tel"] {
+        padding: 5px;
+        width: 46%;
+    }
+    textarea {
+        padding: 15px;
+        width: 92%;
+        height: 80px;
+    }
     .footer-logo {
-        position: absolute;
         margin: auto;
         display: table;
         width: 100%;
     }
-    .footer-social {
-        position: relative;
-        margin: auto;
-        display: table;
-        width: 50%;
-        bottom: 345px;
-    }
-    .center-footer {
-        position: relative;
-        top: 135px;
-        padding: 0;
-        right: -79px;
-        border: 0;
-    }
     .left-footer {
         border: 0;
+        width: 100%;
     }
-    .left-footer p span {
-        display: none;
+    .center-footer {
+        border: 0;
+        margin: auto;
+        display: table;
+        width: 100%;
+    }
+    .right-footer {
+        float: left;
+        width: 100%;
+        font-family: sans-serif;
+        text-align: center;
     }
 }
 
